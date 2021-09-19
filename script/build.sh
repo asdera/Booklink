@@ -13,7 +13,7 @@ build() {
     mkdir -p dist
     cp -r build/* dist
 
-    mv dist/index.html dist/popup.html
+    mv dist/index.html dist/index.html
 }
 
 build
