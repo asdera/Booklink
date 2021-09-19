@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Square Marker",
+  "version": "1.0",
+  "description": "Fast and simple compartment bookmarks.",
+  "author": "Apple BBT",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "identity",
+    "https://hackthenorth.com/",
+    "https://api.hackernoon.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  }
+}
